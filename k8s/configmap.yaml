@@ -5,7 +5,7 @@ metadata:
 data:
   server.properties: |
     server-port=25565
-    motd=A GitOps Minecraft Server on k8s
+    motd=A Minecraft Server on k8s
     max-players=3
     # online-mode=false lets any Minecraft client connect without a Mojang
     # account check. This is fine for a workshop, but never use it on a

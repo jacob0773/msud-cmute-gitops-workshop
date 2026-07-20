@@ -14,14 +14,15 @@ spec:
       labels:
         app: paper
       annotations:
-        configmap-hash: "2"
+        configmap-hash: "1"
     spec:
       securityContext:
         fsGroup: 1000
       containers:
         - name: paper
+          # Replace <YOUR_GITHUB_USERNAME> 
           # MAKE SURE THIS IS LOWERCASE OTHERWISE YOU'LL GET AN ERROR :) 
-          image: ghcr.io/xata/msud-cmute-gitops-workshop:latest
+          image: ghcr.io/<YOUR_GITHUB_USERNAME>/msud-cmute-gitops-workshop:latest
           ports:
             - containerPort: 25565
           resources:
