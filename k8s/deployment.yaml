@@ -22,7 +22,7 @@ spec:
         - name: paper
           # Replace <YOUR_GITHUB_USERNAME>
           # MAKE SURE THIS IS LOWERCASE OTHERWISE YOU'LL GET AN ERROR :)
-          image: ghcr.io/jacob/msud-cmute-gitops-workshop:latest
+          image: ghcr.io/jacob0773/msud-cmute-gitops-workshop:latest
           ports:
             - containerPort: 25565
           resources:
