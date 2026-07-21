@@ -22,7 +22,7 @@ spec:
   # to terminate TLS for the ArgoCD UI.
   secretName: argocd-tls
   dnsNames:
-    - argocd.jacob0773.mc.labs.cmute.cloud
+    - argocd.jacob.mc.labs.cmute.cloud
   issuerRef:
     name: letsencrypt-do
     kind: ClusterIssuer
